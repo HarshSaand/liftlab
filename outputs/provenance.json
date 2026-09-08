@@ -1,0 +1,37 @@
+{
+  "url": "https://huggingface.co/datasets/criteo/criteo-uplift/resolve/2424920/criteo-research-uplift-v2.1.csv.gz",
+  "dataset": "Criteo uplift corrected v2.1",
+  "source_rows": 13979592,
+  "source_sha256": "2716e1bf0fd157a93b5bf86924d9088419dfbac2022c6cd90030220634f616dc",
+  "sample_rows": 1000000,
+  "seed": 42,
+  "method": "Uniform random-priority sampling over entire source, float64 covariate-group hash partitions",
+  "sample_sha256": "f52f0a76417c35b6ec89d6f24533bf155c9b8cd17ac49db5a2e60bc480261d10",
+  "splits": {
+    "train": 700560,
+    "test": 149725,
+    "dev": 149715
+  },
+  "exact_duplicate_covariate_rows": 11121,
+  "features": [
+    "f0",
+    "f1",
+    "f2",
+    "f3",
+    "f4",
+    "f5",
+    "f6",
+    "f7",
+    "f8",
+    "f9",
+    "f10",
+    "f11"
+  ],
+  "outcome": "visit",
+  "excluded": [
+    "conversion",
+    "exposure",
+    "treatment as covariate"
+  ],
+  "source_license": "CC BY-NC-SA 4.0; raw data not redistributed"
+}
