@@ -22,30 +22,30 @@
       "treated": 127543,
       "models": {
         "logistic_s": {
-          "auuc": 0.009817234870332165,
-          "qini_area": 0.004501821637439413,
+          "auuc": 0.00981696955334943,
+          "qini_area": 0.004501717883800248,
           "budgets": {
             "0.1": {
-              "incremental_visits_per_1000_population": 8.425750685602877,
+              "incremental_visits_per_1000_population": 8.425750309744553,
               "bootstrap_95_ci": [
-                6.670084542013562,
-                10.478218407890974
+                6.67008410736066,
+                10.478218074725307
               ],
               "targeted": 14972
             },
             "0.2": {
-              "incremental_visits_per_1000_population": 9.678111209168055,
+              "incremental_visits_per_1000_population": 9.67811066620718,
               "bootstrap_95_ci": [
-                7.6178569207946145,
-                12.072043977706437
+                7.617856318301997,
+                12.072043511229339
               ],
               "targeted": 29943
             },
             "0.3": {
-              "incremental_visits_per_1000_population": 10.29849080775395,
+              "incremental_visits_per_1000_population": 10.298490228986772,
               "bootstrap_95_ci": [
-                7.127749288113574,
-                12.842604808067188
+                7.127748610117156,
+                12.842604300378929
               ],
               "targeted": 44914
             }
@@ -54,100 +54,100 @@
             {
               "n": 14972,
               "mean_prediction": 0.05965894088149071,
-              "observed_ipw_effect": 0.084254689514637,
+              "observed_ipw_effect": 0.08425468926151518,
               "treated": 12959,
               "visits": 4404
             },
             {
               "n": 14972,
               "mean_prediction": 0.009132103994488716,
-              "observed_ipw_effect": 0.012523185461759567,
+              "observed_ipw_effect": 0.012523185330470369,
               "treated": 12861,
               "visits": 1417
             },
             {
               "n": 14972,
               "mean_prediction": 0.003945504315197468,
-              "observed_ipw_effect": 0.006203589029610157,
+              "observed_ipw_effect": 0.006203588447872482,
               "treated": 12702,
               "visits": 380
             },
             {
               "n": 14972,
               "mean_prediction": 0.0024454889353364706,
-              "observed_ipw_effect": 0.0029229396022856236,
+              "observed_ipw_effect": 0.002922939700730127,
               "treated": 12697,
               "visits": 171
             },
             {
               "n": 14972,
               "mean_prediction": 0.0016988664865493774,
-              "observed_ipw_effect": -0.0022654200438410044,
+              "observed_ipw_effect": -0.0022654202312955727,
               "treated": 12716,
               "visits": 125
             },
             {
               "n": 14971,
               "mean_prediction": 0.0012167786480858922,
-              "observed_ipw_effect": 8.716975571587682e-05,
+              "observed_ipw_effect": 8.716980339962288e-05,
               "treated": 12713,
               "visits": 68
             },
             {
               "n": 14971,
               "mean_prediction": 0.0008849766454659402,
-              "observed_ipw_effect": -0.0005114379455335438,
+              "observed_ipw_effect": -0.0005114380279062845,
               "treated": 12722,
               "visits": 47
             },
             {
               "n": 14971,
               "mean_prediction": 0.0006304825656116009,
-              "observed_ipw_effect": -0.0008255859720520675,
+              "observed_ipw_effect": -0.0008255860660824913,
               "treated": 12737,
               "visits": 43
             },
             {
               "n": 14971,
               "mean_prediction": 0.00038646027678623796,
-              "observed_ipw_effect": 0.0001221219135913998,
+              "observed_ipw_effect": 0.00012212191124386324,
               "treated": 12719,
               "visits": 35
             },
             {
               "n": 14971,
               "mean_prediction": -0.000185784199857153,
-              "observed_ipw_effect": 0.003790410701185465,
+              "observed_ipw_effect": 0.0037904109768834636,
               "treated": 12717,
               "visits": 269
             }
           ]
         },
         "boosted_t": {
-          "auuc": 0.009042585667182268,
-          "qini_area": 0.003727176159579815,
+          "auuc": 0.00904236758232613,
+          "qini_area": 0.0037271159127769907,
           "budgets": {
             "0.1": {
-              "incremental_visits_per_1000_population": 8.47621898280393,
+              "incremental_visits_per_1000_population": 8.47621864078721,
               "bootstrap_95_ci": [
-                6.5844488658691,
-                10.583618131229484
+                6.584448454665767,
+                10.583617838210815
               ],
               "targeted": 14972
             },
             "0.2": {
-              "incremental_visits_per_1000_population": 9.715020140223109,
+              "incremental_visits_per_1000_population": 9.715019686554852,
               "bootstrap_95_ci": [
-                7.667596626050032,
-                11.824823181674487
+                7.6675961257781315,
+                11.824822804239895
               ],
               "targeted": 29943
             },
             "0.3": {
-              "incremental_visits_per_1000_population": 9.746391846557716,
+              "incremental_visits_per_1000_population": 9.746391349382538,
               "bootstrap_95_ci": [
-                6.915479966491591,
-                12.039925353749938
+                6.915479386387676,
+                12.039924929891653
               ],
               "targeted": 44914
             }
@@ -156,100 +156,100 @@
             {
               "n": 14972,
               "mean_prediction": 0.07702827113276048,
-              "observed_ipw_effect": 0.08475934714078903,
+              "observed_ipw_effect": 0.0847593557177035,
               "treated": 12986,
               "visits": 4183
             },
             {
               "n": 14972,
               "mean_prediction": 0.01218515335703213,
-              "observed_ipw_effect": 0.012387597002089024,
+              "observed_ipw_effect": 0.012387596751743456,
               "treated": 12760,
               "visits": 1034
             },
             {
               "n": 14972,
               "mean_prediction": 0.0033702062399247716,
-              "observed_ipw_effect": 0.0003137062885798514,
+              "observed_ipw_effect": 0.0003137061514992591,
               "treated": 12621,
               "visits": 305
             },
             {
               "n": 14972,
               "mean_prediction": 0.0010798909396983988,
-              "observed_ipw_effect": -0.006075158249586821,
+              "observed_ipw_effect": -0.006075158185537686,
               "treated": 12646,
               "visits": 130
             },
             {
               "n": 14972,
               "mean_prediction": 0.0006014823762899404,
-              "observed_ipw_effect": 0.00046592712169513106,
+              "observed_ipw_effect": 0.0004659270724925941,
               "treated": 12777,
               "visits": 26
             },
             {
               "n": 14971,
               "mean_prediction": 0.0004887638079630516,
-              "observed_ipw_effect": -0.000162337877554819,
+              "observed_ipw_effect": -0.00016233788188583723,
               "treated": 12778,
               "visits": 18
             },
             {
               "n": 14971,
               "mean_prediction": 0.0004449751728310618,
-              "observed_ipw_effect": 0.0005741834174841642,
+              "observed_ipw_effect": 0.0005741834490571347,
               "treated": 12712,
               "visits": 14
             },
             {
               "n": 14971,
               "mean_prediction": 0.00039203197147147606,
-              "observed_ipw_effect": 0.0005986078176647425,
+              "observed_ipw_effect": 0.0005986078313059075,
               "treated": 12711,
               "visits": 21
             },
             {
               "n": 14971,
               "mean_prediction": 2.6040697623631478e-05,
-              "observed_ipw_effect": -0.0014591460349038243,
+              "observed_ipw_effect": -0.0014591460052326393,
               "treated": 12784,
               "visits": 55
             },
             {
               "n": 14971,
               "mean_prediction": -0.00833514544337407,
-              "observed_ipw_effect": 0.01489971298724413,
+              "observed_ipw_effect": 0.014899713564913028,
               "treated": 12768,
               "visits": 1173
             }
           ]
         },
         "crossfit_dr": {
-          "auuc": 0.009844205092508246,
-          "qini_area": 0.004528792790938069,
+          "auuc": 0.009843967450831336,
+          "qini_area": 0.004528715781282172,
           "budgets": {
             "0.1": {
-              "incremental_visits_per_1000_population": 7.958228932160181,
+              "incremental_visits_per_1000_population": 7.958228570684165,
               "bootstrap_95_ci": [
-                6.102034557388425,
-                10.268559980594704
+                6.102034140512424,
+                10.268559674332009
               ],
               "targeted": 14972
             },
             "0.2": {
-              "incremental_visits_per_1000_population": 10.018672415366398,
+              "incremental_visits_per_1000_population": 10.018671951029031,
               "bootstrap_95_ci": [
-                8.163922405635468,
-                11.999557478487686
+                8.163921881574087,
+                11.99955708474599
               ],
               "targeted": 29943
             },
             "0.3": {
-              "incremental_visits_per_1000_population": 10.655622151381856,
+              "incremental_visits_per_1000_population": 10.655621641695475,
               "bootstrap_95_ci": [
-                7.690127502700249,
-                13.086959327807572
+                7.690126902713983,
+                13.086958867987393
               ],
               "targeted": 44914
             }
@@ -258,100 +258,100 @@
             {
               "n": 14972,
               "mean_prediction": 0.07118954079691577,
-              "observed_ipw_effect": 0.07957962155342102,
+              "observed_ipw_effect": 0.07957962800293747,
               "treated": 12989,
               "visits": 4204
             },
             {
               "n": 14972,
               "mean_prediction": 0.008836307302607588,
-              "observed_ipw_effect": 0.02060374803841114,
+              "observed_ipw_effect": 0.02060374570453724,
               "treated": 12819,
               "visits": 1152
             },
             {
               "n": 14972,
               "mean_prediction": 0.0033266951180591997,
-              "observed_ipw_effect": 0.0063692848198115826,
+              "observed_ipw_effect": 0.006369284193035434,
               "treated": 12697,
               "visits": 449
             },
             {
               "n": 14972,
               "mean_prediction": 0.0022149811048568723,
-              "observed_ipw_effect": -0.0017803339287638664,
+              "observed_ipw_effect": -0.001780333919108783,
               "treated": 12652,
               "visits": 178
             },
             {
               "n": 14972,
               "mean_prediction": 0.0014498678354615269,
-              "observed_ipw_effect": -0.0033054922241717577,
+              "observed_ipw_effect": -0.003305492402361127,
               "treated": 12680,
               "visits": 85
             },
             {
               "n": 14971,
               "mean_prediction": 0.0010451363561579494,
-              "observed_ipw_effect": 0.0014572510262951255,
+              "observed_ipw_effect": 0.0014572510734927428,
               "treated": 12735,
               "visits": 52
             },
             {
               "n": 14971,
               "mean_prediction": 0.0008320163884159929,
-              "observed_ipw_effect": 0.0006527204532176256,
+              "observed_ipw_effect": 0.0006527204586011864,
               "treated": 12827,
               "visits": 15
             },
             {
               "n": 14971,
               "mean_prediction": 0.0008320163884159929,
-              "observed_ipw_effect": 0.0005741834174841642,
+              "observed_ipw_effect": 0.0005741834490571347,
               "treated": 12765,
               "visits": 14
             },
             {
               "n": 14971,
               "mean_prediction": 0.0008320163884159929,
-              "observed_ipw_effect": 0.0003141480265185237,
+              "observed_ipw_effect": 0.0003141480381762069,
               "treated": 12717,
               "visits": 4
             },
             {
               "n": 14971,
               "mean_prediction": -0.004744453848837134,
-              "observed_ipw_effect": 0.0018366716103628278,
+              "observed_ipw_effect": 0.0018366715990337282,
               "treated": 12662,
               "visits": 806
             }
           ]
         },
         "response_targeting": {
-          "auuc": 0.009962767861961229,
-          "qini_area": 0.00464740771445523,
+          "auuc": 0.009962576765004227,
+          "qini_area": 0.004647325095455484,
           "budgets": {
             "0.1": {
-              "incremental_visits_per_1000_population": 8.636088285760524,
+              "incremental_visits_per_1000_population": 8.636087772117502,
               "bootstrap_95_ci": [
-                6.627437743244694,
-                11.207799318199609
+                6.627437154910047,
+                11.207798886072835
               ],
               "targeted": 14972
             },
             "0.2": {
-              "incremental_visits_per_1000_population": 10.224462194862847,
+              "incremental_visits_per_1000_population": 10.224461581946041,
               "bootstrap_95_ci": [
-                8.09317695685643,
-                12.476972555089434
+                8.09317625969082,
+                12.476972003729937
               ],
               "targeted": 29943
             },
             "0.3": {
-              "incremental_visits_per_1000_population": 10.561254744865261,
+              "incremental_visits_per_1000_population": 10.56125410219392,
               "bootstrap_95_ci": [
-                7.297748940201921,
-                12.981968704152354
+                7.2977482085801855,
+                12.981968125652168
               ],
               "targeted": 44914
             }
@@ -359,70 +359,70 @@
           "response_score_bins": [
             {
               "n": 14972,
-              "observed_ipw_effect": 0.08635798841714859,
+              "observed_ipw_effect": 0.08635799364163581,
               "treated": 12956,
               "visits": 5394,
               "mean_response_probability": 0.37043851597460997
             },
             {
               "n": 14972,
-              "observed_ipw_effect": 0.015883207321166992,
+              "observed_ipw_effect": 0.015883207650178994,
               "treated": 12795,
               "visits": 1025,
               "mean_response_probability": 0.0709676293527927
             },
             {
               "n": 14972,
-              "observed_ipw_effect": 0.0033678128384053707,
+              "observed_ipw_effect": 0.0033678127283536664,
               "treated": 12713,
               "visits": 277,
               "mean_response_probability": 0.02025053517236239
             },
             {
               "n": 14972,
-              "observed_ipw_effect": 0.00041518695070408285,
+              "observed_ipw_effect": 0.00041518676549481587,
               "treated": 12650,
               "visits": 119,
               "mean_response_probability": 0.008718120653102597
             },
             {
               "n": 14972,
-              "observed_ipw_effect": -0.001935502514243126,
+              "observed_ipw_effect": -0.0019355026418372094,
               "treated": 12692,
               "visits": 69,
               "mean_response_probability": 0.005126496241100771
             },
             {
               "n": 14971,
-              "observed_ipw_effect": 0.002223460702225566,
+              "observed_ipw_effect": 0.002223460649482221,
               "treated": 12739,
               "visits": 35,
               "mean_response_probability": 0.002297476598855127
             },
             {
               "n": 14971,
-              "observed_ipw_effect": -2.9688240829273127e-05,
+              "observed_ipw_effect": -2.968824504650642e-05,
               "treated": 12720,
               "visits": 13,
               "mean_response_probability": 0.00132438157976727
             },
             {
               "n": 14971,
-              "observed_ipw_effect": -0.00018676223407965153,
+              "observed_ipw_effect": -0.00018676226413460987,
               "treated": 12761,
               "visits": 11,
               "mean_response_probability": 0.0010200050719231552
             },
             {
               "n": 14971,
-              "observed_ipw_effect": -0.00010822525655385107,
+              "observed_ipw_effect": -0.00010822525459055819,
               "treated": 12808,
               "visits": 12,
               "mean_response_probability": 0.0009212897375265659
             },
             {
               "n": 14971,
-              "observed_ipw_effect": 0.0003141480265185237,
+              "observed_ipw_effect": 0.0003141480381762069,
               "treated": 12709,
               "visits": 4,
               "mean_response_probability": 0.0008752404766414039
@@ -430,11 +430,11 @@
           ]
         },
         "random_policy_expectation": {
-          "average_effect": 0.010630504228174686,
+          "average_effect": 0.01063050333909677,
           "budgets": {
-            "0.1": 1.0630504228174686,
-            "0.2": 2.1261008456349373,
-            "0.3": 3.189151268452406
+            "0.1": 1.0630503339096768,
+            "0.2": 2.1261006678193537,
+            "0.3": 3.189151001729031
           }
         }
       }
@@ -445,30 +445,30 @@
       "treated": 127041,
       "models": {
         "logistic_s": {
-          "auuc": 0.011045038120607777,
-          "qini_area": 0.005183683128814145,
+          "auuc": 0.011044785850198361,
+          "qini_area": 0.0051835853151945945,
           "budgets": {
             "0.1": {
-              "incremental_visits_per_1000_population": 9.658621771941899,
+              "incremental_visits_per_1000_population": 9.658621415162052,
               "bootstrap_95_ci": [
-                7.623325451404867,
-                11.627923612682983
+                7.62332503625124,
+                11.627923313975234
               ],
               "targeted": 14972
             },
             "0.2": {
-              "incremental_visits_per_1000_population": 11.066567398984676,
+              "incremental_visits_per_1000_population": 11.066566883979723,
               "bootstrap_95_ci": [
-                8.385408943812902,
-                13.563429266229301
+                8.385408330908795,
+                13.563428817511129
               ],
               "targeted": 29945
             },
             "0.3": {
-              "incremental_visits_per_1000_population": 11.615703006004885,
+              "incremental_visits_per_1000_population": 11.615702451337517,
               "bootstrap_95_ci": [
-                9.278742175126915,
-                13.832786383921842
+                9.278741540771362,
+                13.832785895420995
               ],
               "targeted": 44918
             }
@@ -477,100 +477,100 @@
             {
               "n": 14973,
               "mean_prediction": 0.0592057965695858,
-              "observed_ipw_effect": 0.09658297896385193,
+              "observed_ipw_effect": 0.09658298880552584,
               "treated": 12981,
               "visits": 4541
             },
             {
               "n": 14973,
               "mean_prediction": 0.00913219340145588,
-              "observed_ipw_effect": 0.014078985899686813,
+              "observed_ipw_effect": 0.014078984526729831,
               "treated": 12726,
               "visits": 1390
             },
             {
               "n": 14973,
               "mean_prediction": 0.0039756097830832005,
-              "observed_ipw_effect": 0.005491172894835472,
+              "observed_ipw_effect": 0.005491172298313361,
               "treated": 12730,
               "visits": 391
             },
             {
               "n": 14973,
               "mean_prediction": 0.0024593572597950697,
-              "observed_ipw_effect": -0.00030736924964003265,
+              "observed_ipw_effect": -0.00030736911412557454,
               "treated": 12647,
               "visits": 170
             },
             {
               "n": 14973,
               "mean_prediction": 0.0017031781608238816,
-              "observed_ipw_effect": 0.0027273755986243486,
+              "observed_ipw_effect": 0.0027273755283617478,
               "treated": 12741,
               "visits": 115
             },
             {
               "n": 14972,
               "mean_prediction": 0.0012221004581078887,
-              "observed_ipw_effect": -0.0029616793617606163,
+              "observed_ipw_effect": -0.002961679084425832,
               "treated": 12631,
               "visits": 76
             },
             {
               "n": 14972,
               "mean_prediction": 0.0008885895367711782,
-              "observed_ipw_effect": 0.0016927489778026938,
+              "observed_ipw_effect": 0.0016927490335901583,
               "treated": 12668,
               "visits": 55
             },
             {
               "n": 14972,
               "mean_prediction": 0.0006306609138846397,
-              "observed_ipw_effect": 0.00022506825916934758,
+              "observed_ipw_effect": 0.0002250682694204015,
               "treated": 12537,
               "visits": 43
             },
             {
               "n": 14972,
               "mean_prediction": 0.000387714768294245,
-              "observed_ipw_effect": -0.0018464437453076243,
+              "observed_ipw_effect": -0.0018464438554510393,
               "treated": 12702,
               "visits": 30
             },
             {
               "n": 14972,
               "mean_prediction": -0.0002001534594455734,
-              "observed_ipw_effect": 0.0015371594345197082,
+              "observed_ipw_effect": 0.0015371594065544181,
               "treated": 12678,
               "visits": 247
             }
           ]
         },
         "boosted_t": {
-          "auuc": 0.010524471637159413,
-          "qini_area": 0.0046631082634626085,
+          "auuc": 0.010524248662291812,
+          "qini_area": 0.0046630481272880225,
           "budgets": {
             "0.1": {
-              "incremental_visits_per_1000_population": 9.983601817743947,
+              "incremental_visits_per_1000_population": 9.983601511078728,
               "bootstrap_95_ci": [
-                7.7778993775916625,
-                11.925150025625383
+                7.777899003420516,
+                11.925149778816328
               ],
               "targeted": 14972
             },
             "0.2": {
-              "incremental_visits_per_1000_population": 10.661268484256048,
+              "incremental_visits_per_1000_population": 10.661268053732279,
               "bootstrap_95_ci": [
-                8.074708666959097,
-                13.030805762910072
+                8.074708159631896,
+                13.030805403327214
               ],
               "targeted": 29945
             },
             "0.3": {
-              "incremental_visits_per_1000_population": 11.044103363197621,
+              "incremental_visits_per_1000_population": 11.044102897668331,
               "bootstrap_95_ci": [
-                8.454029225172514,
-                13.120765916591377
+                8.454028671254184,
+                13.120765504194654
               ],
               "targeted": 44918
             }
@@ -579,100 +579,100 @@
             {
               "n": 14973,
               "mean_prediction": 0.07699805098644223,
-              "observed_ipw_effect": 0.0998326763510704,
+              "observed_ipw_effect": 0.09983268124265428,
               "treated": 13022,
               "visits": 4268
             },
             {
               "n": 14973,
               "mean_prediction": 0.012031993472156744,
-              "observed_ipw_effect": 0.0067764390259981155,
+              "observed_ipw_effect": 0.0067764391303548385,
               "treated": 12731,
               "visits": 996
             },
             {
               "n": 14973,
               "mean_prediction": 0.0032908923811798023,
-              "observed_ipw_effect": 0.0038282207679003477,
+              "observed_ipw_effect": 0.0038282205976307576,
               "treated": 12688,
               "visits": 323
             },
             {
               "n": 14973,
               "mean_prediction": 0.0010612727544150361,
-              "observed_ipw_effect": -0.00031600071815773845,
+              "observed_ipw_effect": -0.00031600075486635826,
               "treated": 12623,
               "visits": 103
             },
             {
               "n": 14973,
               "mean_prediction": 0.000597563053141356,
-              "observed_ipw_effect": -0.0016351622762158513,
+              "observed_ipw_effect": -0.0016351620998335229,
               "treated": 12613,
               "visits": 26
             },
             {
               "n": 14972,
               "mean_prediction": 0.00048763194817466577,
-              "observed_ipw_effect": 0.0009423812152817845,
+              "observed_ipw_effect": 0.0009423811674197155,
               "treated": 12693,
               "visits": 12
             },
             {
               "n": 14972,
               "mean_prediction": 0.00044413307708363487,
-              "observed_ipw_effect": -0.0011588172055780888,
+              "observed_ipw_effect": -0.0011588172195804484,
               "treated": 12693,
               "visits": 12
             },
             {
               "n": 14972,
               "mean_prediction": 0.0003904913156116741,
-              "observed_ipw_effect": 0.00041181809501722455,
+              "observed_ipw_effect": 0.00041181805945241076,
               "treated": 12663,
               "visits": 32
             },
             {
               "n": 14972,
               "mean_prediction": 1.676638491770951e-05,
-              "observed_ipw_effect": 0.0034989796113222837,
+              "observed_ipw_effect": 0.003498979604477946,
               "treated": 12674,
               "visits": 78
             },
             {
               "n": 14972,
               "mean_prediction": -0.008546862688919975,
-              "observed_ipw_effect": 0.005040139425545931,
+              "observed_ipw_effect": 0.005040139809327689,
               "treated": 12641,
               "visits": 1208
             }
           ]
         },
         "crossfit_dr": {
-          "auuc": 0.010923152208629293,
-          "qini_area": 0.0050617958198517984,
+          "auuc": 0.010922923156935889,
+          "qini_area": 0.005061722621932157,
           "budgets": {
             "0.1": {
-              "incremental_visits_per_1000_population": 9.753761988168648,
+              "incremental_visits_per_1000_population": 9.75376166678809,
               "bootstrap_95_ci": [
-                7.510591898125307,
-                11.916995522613258
+                7.510591499087868,
+                11.916995275112072
               ],
               "targeted": 14972
             },
             "0.2": {
-              "incremental_visits_per_1000_population": 10.955994903474005,
+              "incremental_visits_per_1000_population": 10.95599445631019,
               "bootstrap_95_ci": [
-                8.601967687558243,
-                12.910077239997719
+                8.601967147455259,
+                12.910076857416128
               ],
               "targeted": 29945
             },
             "0.3": {
-              "incremental_visits_per_1000_population": 11.340029857098548,
+              "incremental_visits_per_1000_population": 11.340029352499897,
               "bootstrap_95_ci": [
-                9.129805127096247,
-                13.510234714589428
+                9.129804570546462,
+                13.510234269957557
               ],
               "targeted": 44918
             }
@@ -681,100 +681,100 @@
             {
               "n": 14973,
               "mean_prediction": 0.07156860980194478,
-              "observed_ipw_effect": 0.09753435850143433,
+              "observed_ipw_effect": 0.0975343595511819,
               "treated": 13042,
               "visits": 4319
             },
             {
               "n": 14973,
               "mean_prediction": 0.008776232235763366,
-              "observed_ipw_effect": 0.012021927163004875,
+              "observed_ipw_effect": 0.012021926428317389,
               "treated": 12753,
               "visits": 1123
             },
             {
               "n": 14973,
               "mean_prediction": 0.003320280944288064,
-              "observed_ipw_effect": 0.003840220859274268,
+              "observed_ipw_effect": 0.0038402207194285698,
               "treated": 12696,
               "visits": 477
             },
             {
               "n": 14973,
               "mean_prediction": 0.0022156380012765607,
-              "observed_ipw_effect": -0.00027768491418100893,
+              "observed_ipw_effect": -0.0002776848346497678,
               "treated": 12622,
               "visits": 157
             },
             {
               "n": 14973,
               "mean_prediction": 0.0014509126679796535,
-              "observed_ipw_effect": 0.0014168459456413984,
+              "observed_ipw_effect": 0.0014168458241353677,
               "treated": 12608,
               "visits": 105
             },
             {
               "n": 14972,
               "mean_prediction": 0.0010425335524054185,
-              "observed_ipw_effect": 0.001879498828202486,
+              "observed_ipw_effect": 0.0018794988236221673,
               "treated": 12640,
               "visits": 44
             },
             {
               "n": 14972,
               "mean_prediction": 0.000832016388415993,
-              "observed_ipw_effect": -0.0005549858324229717,
+              "observed_ipw_effect": -0.0005549858588787646,
               "treated": 12631,
               "visits": 13
             },
             {
               "n": 14972,
               "mean_prediction": 0.000832016388415993,
-              "observed_ipw_effect": 0.00018148629169445485,
+              "observed_ipw_effect": 0.00018148627881474567,
               "treated": 12695,
               "visits": 9
             },
             {
               "n": 14972,
               "mean_prediction": 0.000832016388415993,
-              "observed_ipw_effect": 0.00010295450920239091,
+              "observed_ipw_effect": 0.00010295451486310268,
               "treated": 12654,
               "visits": 8
             },
             {
               "n": 14972,
               "mean_prediction": -0.004793795137033765,
-              "observed_ipw_effect": 0.0010756537085399032,
+              "observed_ipw_effect": 0.0010756540366644624,
               "treated": 12700,
               "visits": 803
             }
           ]
         },
         "response_targeting": {
-          "auuc": 0.010951067508235494,
-          "qini_area": 0.005089746044054547,
+          "auuc": 0.010950852050205013,
+          "qini_area": 0.005089651515201563,
           "budgets": {
             "0.1": {
-              "incremental_visits_per_1000_population": 9.046305213593186,
+              "incremental_visits_per_1000_population": 9.046304704379269,
               "bootstrap_95_ci": [
-                6.8309776981041335,
-                11.25794838925478
+                6.830977115769184,
+                11.25794795082043
               ],
               "targeted": 14972
             },
             "0.2": {
-              "incremental_visits_per_1000_population": 11.056188200248226,
+              "incremental_visits_per_1000_population": 11.05618759825517,
               "bootstrap_95_ci": [
-                8.627335104068107,
-                13.54334496587918
+                8.627334430212274,
+                13.543344441219729
               ],
               "targeted": 29945
             },
             "0.3": {
-              "incremental_visits_per_1000_population": 11.48771955525463,
+              "incremental_visits_per_1000_population": 11.487718927675536,
               "bootstrap_95_ci": [
-                8.817131455483231,
-                13.876966472738154
+                8.81713074780642,
+                13.87696592879999
               ],
               "targeted": 44918
             }
@@ -782,70 +782,70 @@
           "response_score_bins": [
             {
               "n": 14973,
-              "observed_ipw_effect": 0.09046003222465515,
+              "observed_ipw_effect": 0.09046002617132078,
               "treated": 12944,
               "visits": 5453,
               "mean_response_probability": 0.3704992311752546
             },
             {
               "n": 14973,
-              "observed_ipw_effect": 0.020098159089684486,
+              "observed_ipw_effect": 0.020098157769690074,
               "treated": 12747,
               "visits": 1072,
               "mean_response_probability": 0.07165635053891267
             },
             {
               "n": 14973,
-              "observed_ipw_effect": 0.004315169528126717,
+              "observed_ipw_effect": 0.0043151691910414715,
               "treated": 12715,
               "visits": 269,
               "mean_response_probability": 0.020410449950119623
             },
             {
               "n": 14973,
-              "observed_ipw_effect": 0.001013686996884644,
+              "observed_ipw_effect": 0.0010136869094683173,
               "treated": 12658,
               "visits": 140,
               "mean_response_probability": 0.008716234807099668
             },
             {
               "n": 14973,
-              "observed_ipw_effect": 0.0005880015669390559,
+              "observed_ipw_effect": 0.0005880015536359444,
               "treated": 12634,
               "visits": 61,
               "mean_response_probability": 0.005112294635120806
             },
             {
               "n": 14972,
-              "observed_ipw_effect": 0.0014379946514964104,
+              "observed_ipw_effect": 0.001437994502041033,
               "treated": 12699,
               "visits": 25,
               "mean_response_probability": 0.0022972477096875957
             },
             {
               "n": 14972,
-              "observed_ipw_effect": 0.0006526769720949233,
+              "observed_ipw_effect": 0.0006526768625246036,
               "treated": 12601,
               "visits": 15,
               "mean_response_probability": 0.0013234534726148973
             },
             {
               "n": 14972,
-              "observed_ipw_effect": -0.001237349002622068,
+              "observed_ipw_effect": -0.0012373489835320914,
               "treated": 12677,
               "visits": 11,
               "mean_response_probability": 0.0010192097962132233
             },
             {
               "n": 14972,
-              "observed_ipw_effect": 0.00010295451647834852,
+              "observed_ipw_effect": 0.00010295451486310272,
               "treated": 12674,
               "visits": 8,
               "mean_response_probability": 0.0009216023510384061
             },
             {
               "n": 14972,
-              "observed_ipw_effect": -0.0002111725480062887,
+              "observed_ipw_effect": -0.00021117254094346917,
               "treated": 12692,
               "visits": 4,
               "mean_response_probability": 0.0008751863933849159
@@ -853,11 +853,11 @@
           ]
         },
         "random_policy_expectation": {
-          "average_effect": 0.011722401715815067,
+          "average_effect": 0.011722401070005934,
           "budgets": {
-            "0.1": 1.1722401715815067,
-            "0.2": 2.3444803431630135,
-            "0.3": 3.51672051474452
+            "0.1": 1.1722401070005934,
+            "0.2": 2.344480214001187,
+            "0.3": 3.51672032100178
           }
         }
       }
@@ -870,6 +870,6 @@
     "Bootstrap conditional on trained model and estimated training propensity; no training-seed uncertainty",
     "Unobserved individual counterfactuals prohibit individual-effect accuracy measurement"
   ],
-  "elapsed_seconds": 12.327228307723999,
+  "elapsed_seconds": 11.406575202941895,
   "checkpoint_sha256": "654ee2520484e1cb1e5cce5be3288b3f85a599534108a155f42ea90438508138"
 }

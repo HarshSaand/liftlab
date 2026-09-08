@@ -104,6 +104,7 @@ def s_features(x, t):
 def transformed_outcome(y, t, p):
     if not 0 < p < 1:
         raise ValueError('Propensity must lie strictly between zero and one')
+    y,t=np.asarray(y,dtype=np.float64),np.asarray(t,dtype=np.float64)
     return y * (t/p - (1-t)/(1-p))
 
 def curve(score, pseudo):
