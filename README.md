@@ -55,7 +55,7 @@ The logistic S-learner uses standardized covariates, treatment and covariate-tre
 
 ### Evaluation and inference
 
-For observed visit `y`, assignment `t`, and training-estimated propensity `p`, the IPW evaluation outcome is `y * (t/p - (1-t)/(1-p))`. Cumulative gains divide by the whole evaluation population; Qini area subtracts the random-policy line. Budget results mean incremental **visits per 1,000 people in the whole evaluation population**, not per 1,000 targeted users. Per-bin mean predictions and IPW effects are included for diagnostic calibration, not individual-effect ground truth.
+For observed visit `y`, assignment `t`, and training-estimated propensity `p`, the IPW evaluation outcome is `y * (t/p - (1-t)/(1-p))`. Cumulative gains divide by the whole evaluation population; Qini area subtracts the random-policy line. Budget results mean incremental **visits per 1,000 people in the whole evaluation population**, not per 1,000 targeted users. Per-bin mean effect predictions and IPW effects are included for diagnostic calibration, not individual-effect ground truth. The response-targeting baseline scores **visit probability, not treatment effect**: its separate `response_score_bins` are descriptive response-score strata, not treatment-effect calibration.
 
 The 200 pairs-bootstrap intervals condition on the fitted model, frozen test-budget mask and training propensity. They do not capture retraining variation, hidden dependence between customers, or provide simultaneous/paired superiority tests. All policy families are reported; no test winner is selected for deployment.
 
@@ -114,7 +114,7 @@ CSV inputs must contain `f0` through `f11` on the Criteo feature representation.
 python -m pytest -q
 ```
 
-Six initial contract tests cover duplicate-group isolation, order-independent splitting, IPW algebra, null-effect curves, treatment interactions and invalid propensities. CI does not download the external dataset.
+Seven contract tests cover duplicate-group isolation, order-independent splitting, IPW algebra, null-effect curves, treatment interactions, invalid propensities and distinguishing response probabilities from effect calibration. CI does not download the external dataset.
 
 ## Limitations and next experiments
 

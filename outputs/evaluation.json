@@ -356,76 +356,76 @@
               "targeted": 44914
             }
           },
-          "effect_bins": [
+          "response_score_bins": [
             {
               "n": 14972,
-              "mean_prediction": 0.37043851597460997,
               "observed_ipw_effect": 0.08635798841714859,
               "treated": 12956,
-              "visits": 5394
+              "visits": 5394,
+              "mean_response_probability": 0.37043851597460997
             },
             {
               "n": 14972,
-              "mean_prediction": 0.0709676293527927,
               "observed_ipw_effect": 0.015883207321166992,
               "treated": 12795,
-              "visits": 1025
+              "visits": 1025,
+              "mean_response_probability": 0.0709676293527927
             },
             {
               "n": 14972,
-              "mean_prediction": 0.02025053517236239,
               "observed_ipw_effect": 0.0033678128384053707,
               "treated": 12713,
-              "visits": 277
+              "visits": 277,
+              "mean_response_probability": 0.02025053517236239
             },
             {
               "n": 14972,
-              "mean_prediction": 0.008718120653102597,
               "observed_ipw_effect": 0.00041518695070408285,
               "treated": 12650,
-              "visits": 119
+              "visits": 119,
+              "mean_response_probability": 0.008718120653102597
             },
             {
               "n": 14972,
-              "mean_prediction": 0.005126496241100771,
               "observed_ipw_effect": -0.001935502514243126,
               "treated": 12692,
-              "visits": 69
+              "visits": 69,
+              "mean_response_probability": 0.005126496241100771
             },
             {
               "n": 14971,
-              "mean_prediction": 0.002297476598855127,
               "observed_ipw_effect": 0.002223460702225566,
               "treated": 12739,
-              "visits": 35
+              "visits": 35,
+              "mean_response_probability": 0.002297476598855127
             },
             {
               "n": 14971,
-              "mean_prediction": 0.00132438157976727,
               "observed_ipw_effect": -2.9688240829273127e-05,
               "treated": 12720,
-              "visits": 13
+              "visits": 13,
+              "mean_response_probability": 0.00132438157976727
             },
             {
               "n": 14971,
-              "mean_prediction": 0.0010200050719231552,
               "observed_ipw_effect": -0.00018676223407965153,
               "treated": 12761,
-              "visits": 11
+              "visits": 11,
+              "mean_response_probability": 0.0010200050719231552
             },
             {
               "n": 14971,
-              "mean_prediction": 0.0009212897375265659,
               "observed_ipw_effect": -0.00010822525655385107,
               "treated": 12808,
-              "visits": 12
+              "visits": 12,
+              "mean_response_probability": 0.0009212897375265659
             },
             {
               "n": 14971,
-              "mean_prediction": 0.0008752404766414039,
               "observed_ipw_effect": 0.0003141480265185237,
               "treated": 12709,
-              "visits": 4
+              "visits": 4,
+              "mean_response_probability": 0.0008752404766414039
             }
           ]
         },
@@ -779,76 +779,76 @@
               "targeted": 44918
             }
           },
-          "effect_bins": [
+          "response_score_bins": [
             {
               "n": 14973,
-              "mean_prediction": 0.3704992311752546,
               "observed_ipw_effect": 0.09046003222465515,
               "treated": 12944,
-              "visits": 5453
+              "visits": 5453,
+              "mean_response_probability": 0.3704992311752546
             },
             {
               "n": 14973,
-              "mean_prediction": 0.07165635053891267,
               "observed_ipw_effect": 0.020098159089684486,
               "treated": 12747,
-              "visits": 1072
+              "visits": 1072,
+              "mean_response_probability": 0.07165635053891267
             },
             {
               "n": 14973,
-              "mean_prediction": 0.020410449950119623,
               "observed_ipw_effect": 0.004315169528126717,
               "treated": 12715,
-              "visits": 269
+              "visits": 269,
+              "mean_response_probability": 0.020410449950119623
             },
             {
               "n": 14973,
-              "mean_prediction": 0.008716234807099668,
               "observed_ipw_effect": 0.001013686996884644,
               "treated": 12658,
-              "visits": 140
+              "visits": 140,
+              "mean_response_probability": 0.008716234807099668
             },
             {
               "n": 14973,
-              "mean_prediction": 0.005112294635120806,
               "observed_ipw_effect": 0.0005880015669390559,
               "treated": 12634,
-              "visits": 61
+              "visits": 61,
+              "mean_response_probability": 0.005112294635120806
             },
             {
               "n": 14972,
-              "mean_prediction": 0.0022972477096875957,
               "observed_ipw_effect": 0.0014379946514964104,
               "treated": 12699,
-              "visits": 25
+              "visits": 25,
+              "mean_response_probability": 0.0022972477096875957
             },
             {
               "n": 14972,
-              "mean_prediction": 0.0013234534726148973,
               "observed_ipw_effect": 0.0006526769720949233,
               "treated": 12601,
-              "visits": 15
+              "visits": 15,
+              "mean_response_probability": 0.0013234534726148973
             },
             {
               "n": 14972,
-              "mean_prediction": 0.0010192097962132233,
               "observed_ipw_effect": -0.001237349002622068,
               "treated": 12677,
-              "visits": 11
+              "visits": 11,
+              "mean_response_probability": 0.0010192097962132233
             },
             {
               "n": 14972,
-              "mean_prediction": 0.0009216023510384061,
               "observed_ipw_effect": 0.00010295451647834852,
               "treated": 12674,
-              "visits": 8
+              "visits": 8,
+              "mean_response_probability": 0.0009216023510384061
             },
             {
               "n": 14972,
-              "mean_prediction": 0.0008751863933849159,
               "observed_ipw_effect": -0.0002111725480062887,
               "treated": 12692,
-              "visits": 4
+              "visits": 4,
+              "mean_response_probability": 0.0008751863933849159
             }
           ]
         },
@@ -870,6 +870,6 @@
     "Bootstrap conditional on trained model and estimated training propensity; no training-seed uncertainty",
     "Unobserved individual counterfactuals prohibit individual-effect accuracy measurement"
   ],
-  "elapsed_seconds": 11.686988115310669,
+  "elapsed_seconds": 12.327228307723999,
   "checkpoint_sha256": "654ee2520484e1cb1e5cce5be3288b3f85a599534108a155f42ea90438508138"
 }

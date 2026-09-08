@@ -113,7 +113,7 @@ def curve(score, pseudo):
     auuc = float(np.trapezoid(gain, fractions))
     return fractions, gain, auuc, auuc - float(gain[-1])/2
 
-def metrics(score, y, t, p, bootstrap=200):
+def metrics(score, y, t, p, bootstrap=200, score_is_effect=True):
     pseudo = transformed_outcome(y, t, p)
     fractions, gain, auuc, qini = curve(score, pseudo)
     order = np.argsort(-score, kind='stable')
@@ -132,7 +132,11 @@ def metrics(score, y, t, p, bootstrap=200):
         bins.append(dict(n=len(indexes), mean_prediction=float(score[indexes].mean()),
             observed_ipw_effect=float(pseudo[indexes].mean()),
             treated=int(t[indexes].sum()), visits=int(y[indexes].sum())))
-    return dict(auuc=auuc, qini_area=qini, budgets=budgets, effect_bins=bins)
+    if not score_is_effect:
+        for item in bins:
+            item['mean_response_probability']=item.pop('mean_prediction')
+    return dict(auuc=auuc, qini_area=qini, budgets=budgets,
+        **{('effect_bins' if score_is_effect else 'response_score_bins'):bins})
 
 def run():
     started = time.time()
@@ -191,7 +195,8 @@ def run():
         scores = {'logistic_s': s.predict_proba(s_features(xx,1))[:,1]-s.predict_proba(s_features(xx,0))[:,1],
             'boosted_t': m1.predict_proba(xx)[:,1]-m0.predict_proba(xx)[:,1],
             'crossfit_dr': dr.predict(xx), 'response_targeting': m1.predict_proba(xx)[:,1]}
-        values = {key:metrics(value, y[mask], t[mask], p) for key,value in scores.items()}
+        values = {key:metrics(value, y[mask], t[mask], p,
+            score_is_effect=(key!='response_targeting')) for key,value in scores.items()}
         ate = float(transformed_outcome(y[mask], t[mask], p).mean())
         values['random_policy_expectation'] = dict(average_effect=ate,
             budgets={str(b):1000*b*ate for b in [.1,.2,.3]})

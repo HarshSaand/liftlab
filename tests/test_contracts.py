@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-from liftlab import covariate_hash, split_groups, transformed_outcome, curve, s_features
+from liftlab import covariate_hash, split_groups, transformed_outcome, curve, s_features, metrics
 
 def test_duplicates_stay_together():
     frame=pd.DataFrame({'f0':[1.,2.,1.], 'f1':[3.,4.,3.]})
@@ -28,3 +28,8 @@ def test_treatment_interactions_only():
 def test_bad_propensity_rejected():
     import pytest
     with pytest.raises(ValueError): transformed_outcome(np.ones(2),np.ones(2),0)
+
+def test_response_probability_not_effect_calibration():
+    result=metrics(np.linspace(0,1,20),np.ones(20),np.tile([0,1],10),.5,bootstrap=2,score_is_effect=False)
+    assert 'effect_bins' not in result
+    assert 'mean_response_probability' in result['response_score_bins'][0]
