@@ -6,6 +6,12 @@ The benchmark's outcome is **a visit**, not a purchase, revenue, or observed bus
 
 ![Real held-out targeting-policy curves](outputs/uplift-curves.png)
 
+## Dataset at a glance
+
+The corrected **Criteo uplift v2.1** release has **13,979,592 records** from a randomized advertising experiment. One row combines **12 anonymized pre-treatment covariates**, treatment assignment and observed outcomes; the project evaluates incremental visits, not an individual's unobserved counterfactual or revenue. Post-treatment exposure/outcome fields are not used as prediction features.
+
+A uniform **one-million-row sample** is partitioned into **700,560 training / 149,715 development / 149,725 test rows** with seed 42. These are randomized row partitions, not future-time or new-advertiser tests. Raw data stays local; sample/split provenance is recorded in [`outputs/provenance.json`](outputs/provenance.json).
+
 ## Technical snapshot
 
 | Question | Implementation |
