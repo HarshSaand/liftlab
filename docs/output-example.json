@@ -1,0 +1,142 @@
+{
+  "title": "LiftLab",
+  "subtitle": "Real held-out records become treatment-effect scores",
+  "eyebrow": "ACTUAL CHECKPOINT INFERENCE",
+  "context": "Criteo randomized advertising study · first 8 held-out sample rows",
+  "columns": [
+    "Sample row",
+    "Logistic S effect",
+    "Boosted T effect",
+    "Cross-fit DR effect"
+  ],
+  "rows": [
+    [
+      "11",
+      "+0.00083",
+      "+0.00054",
+      "+0.00083"
+    ],
+    [
+      "13",
+      "+0.00318",
+      "-0.00004",
+      "+0.00083"
+    ],
+    [
+      "15",
+      "+0.00009",
+      "+0.00056",
+      "+0.00083"
+    ],
+    [
+      "18",
+      "+0.01076",
+      "+0.01035",
+      "+0.00492"
+    ],
+    [
+      "21",
+      "+0.00000",
+      "+0.00046",
+      "+0.00083"
+    ],
+    [
+      "24",
+      "+0.00635",
+      "+0.02109",
+      "+0.00742"
+    ],
+    [
+      "25",
+      "+0.00151",
+      "+0.00081",
+      "+0.00212"
+    ],
+    [
+      "28",
+      "+0.00071",
+      "+0.00041",
+      "+0.00083"
+    ]
+  ],
+  "raw": [
+    {
+      "sample_row": 11,
+      "covariate_group": "15083825424804032295",
+      "logistic_s_effect": 0.0008344524540007114,
+      "boosted_t_effect": 0.0005383145978838982,
+      "crossfit_dr_effect": 0.0008320163884159929
+    },
+    {
+      "sample_row": 13,
+      "covariate_group": "8945295354758424993",
+      "logistic_s_effect": 0.0031781597062945366,
+      "boosted_t_effect": -4.410306630309711e-05,
+      "crossfit_dr_effect": 0.0008320163884159929
+    },
+    {
+      "sample_row": 15,
+      "covariate_group": "10969051987152543794",
+      "logistic_s_effect": 8.522067219018936e-05,
+      "boosted_t_effect": 0.0005576364813179044,
+      "crossfit_dr_effect": 0.0008320163884159929
+    },
+    {
+      "sample_row": 18,
+      "covariate_group": "4929867301638540496",
+      "logistic_s_effect": 0.010758105665445328,
+      "boosted_t_effect": 0.010345897437650343,
+      "crossfit_dr_effect": 0.004923257407586278
+    },
+    {
+      "sample_row": 21,
+      "covariate_group": "8032702679316307590",
+      "logistic_s_effect": 3.289896994829178e-06,
+      "boosted_t_effect": 0.0004600470690636132,
+      "crossfit_dr_effect": 0.0008320163884159929
+    },
+    {
+      "sample_row": 24,
+      "covariate_group": "14146121587791224792",
+      "logistic_s_effect": 0.00635373592376709,
+      "boosted_t_effect": 0.02108640781635958,
+      "crossfit_dr_effect": 0.007416832530856265
+    },
+    {
+      "sample_row": 25,
+      "covariate_group": "6889586914579684596",
+      "logistic_s_effect": 0.0015095528215169907,
+      "boosted_t_effect": 0.0008101873230833955,
+      "crossfit_dr_effect": 0.002116809619488755
+    },
+    {
+      "sample_row": 28,
+      "covariate_group": "9085046093968350995",
+      "logistic_s_effect": 0.0007121646776795387,
+      "boosted_t_effect": 0.00041235971133558706,
+      "crossfit_dr_effect": 0.0008320163884159929
+    }
+  ],
+  "note": "Effects concern visit probability, not conversion or revenue. These are model estimates: individual counterfactual effects cannot be verified. Raw anonymized feature rows stay outside Git; row IDs and source hashes support reproduction.",
+  "input": "12 pre-treatment anonymous covariates",
+  "output": "Three per-record treatment-effect estimates",
+  "sources": [
+    {
+      "path": "data/sample.parquet",
+      "sha256": "f52f0a76417c35b6ec89d6f24533bf155c9b8cd17ac49db5a2e60bc480261d10"
+    },
+    {
+      "path": "checkpoints/models.joblib",
+      "sha256": "654ee2520484e1cb1e5cce5be3288b3f85a599534108a155f42ea90438508138"
+    },
+    {
+      "path": "outputs/provenance.json",
+      "sha256": "21cb1844808f9a6c9df22ffd37febaa8a0325d4b9472fd2842cc189d10d5d26b"
+    }
+  ],
+  "source_repository": "https://github.com/HarshSaand/liftlab",
+  "extraction": "python docs/extract_showcase.py --source /path/to/reproduced/project",
+  "dataset_url": "https://ailab.criteo.com/criteo-uplift-prediction-dataset/",
+  "source_code_commit": "c8c39288c67ed30fc0f52cc9a33e2bbe9c7a5559",
+  "extractor_sha256": "ee877c834a63615f2eb1e86da0a445dc89a31f1dfd9c407f8f44e68df27b1acb"
+}

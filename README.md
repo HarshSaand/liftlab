@@ -1,5 +1,32 @@
 # LiftLab — Incrementality and Budgeted Targeting
 
+## Actual output example
+
+![Real held-out records become treatment-effect scores.](docs/output-showcase.png)
+
+**Input:** 12 pre-treatment anonymous covariates. **Output:** Three per-record treatment-effect estimates.
+
+Effects concern visit probability, not conversion or revenue. These are model estimates: individual counterfactual effects cannot be verified. Raw anonymized feature rows stay outside Git; row IDs and source hashes support reproduction.
+
+[Inspect the full output record and source hashes](docs/output-example.json) · [Open the standalone review page](docs/output-showcase.html) · [Original dataset](https://ailab.criteo.com/criteo-uplift-prediction-dataset/)
+
+### Reproduce this example
+
+Follow the project setup/data steps below first. `--source` points to a reproduced project directory with its local data, saved predictions or checkpoints; use `.` when running in that directory. The exporter never silently invents missing inputs.
+
+```bash
+python docs/extract_showcase.py --source /path/to/reproduced/project
+python docs/render_showcase.py
+# Open docs/output-showcase.html directly, or capture the image with Chrome:
+npm install --no-save playwright
+node docs/capture_showcase.mjs
+```
+
+The JSON records the exact source-relative filenames, SHA-256 hashes and code revision. Rendering uses saved values; displayed decimals are rounded only for readability. Raw datasets and model checkpoints remain outside this documentation bundle.
+
+On macOS, LightGBM requires an available OpenMP runtime (`libomp`); use the environment documented for your local model run.
+
+
 LiftLab asks a practical product-data question: **who benefits from an intervention, rather than merely who is likely to respond?** It trains treatment-effect models on real, corrected Criteo randomized-trial data and audits targeting policies on a frozen, covariate-group-disjoint test set.
 
 The benchmark's outcome is **a visit**, not a purchase, revenue, or observed business savings. Its central result is that complexity is not automatically better: the logistic S-learner has a slightly larger test Qini area than the boosted T-learner and cross-fitted doubly robust learner; ordinary response targeting is competitive. This is a one-million-row research benchmark, not a deployed advertising system.
