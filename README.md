@@ -1,5 +1,7 @@
 # LiftLab — Incrementality and Budgeted Targeting
 
+[Read the project report (PDF)](docs/PROJECT_REPORT.pdf) · [Explore the explanation and flow diagram](docs/PROJECT_REPORT.md)
+
 ## Actual output example
 
 ![Real held-out records become treatment-effect scores.](docs/output-showcase.png)
